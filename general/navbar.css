@@ -1,0 +1,61 @@
+html{
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+  .nav {
+    height: 50px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background:rgba(16,16,24,255);
+    box-shadow: 0 3px 15px #3586ff;
+    position: sticky;
+    z-index: 1;
+    display: flex;
+  }
+  .nav-hidden {
+    top: -50px;
+    transition: top 0.3s ease;
+  }
+  .nav-shown {
+    top: 0;
+    transition: top 0.3s ease;
+  }
+  .nav img {
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+  .nav > .nav-header > .nav-links {
+    display: flex;
+    margin-left: 1vw;
+  }
+  .nav > .nav-header > .nav-links > a {
+    font-size: 30px;
+    display: inline-block;
+    padding: 5px 10px 13px 10px;
+    text-decoration: none;
+    color: #3586ff;
+  }
+  .nav > .nav-btn {
+    display: none;
+  }
+  .nav > .nav-links {
+    width: 88%;
+    text-align: right;
+    display: inline;
+    font-size: 25px;
+  }
+  .nav > .nav-links > a {
+    font-size: 25px;
+    display: inline-block;
+    padding: 7px 10px 13px 10px;
+    text-decoration: none;
+    color: #3586ff;
+    margin-left: 2rem;
+  }
+  .nav > .nav-links > a:hover {
+    color: white;
+  }
+  .nav > #nav-check {
+    display: none;
+  }

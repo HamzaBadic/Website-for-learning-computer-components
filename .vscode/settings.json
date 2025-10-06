@@ -1,0 +1,9 @@
+{
+  "workbench.colorTheme": "Palenight Theme",
+  "workbench.preferredDarkColorTheme": "Default Light+ Experimental",
+  "workbench.preferredHighContrastColorTheme": "Default Light+ Experimental",
+  "workbench.preferredHighContrastLightColorTheme": "Default Light+ Experimental",
+  "workbench.preferredLightColorTheme": "Default Light+ Experimental",
+  "window.autoDetectColorScheme": false,
+  "liveServer.settings.port": 5501
+}
